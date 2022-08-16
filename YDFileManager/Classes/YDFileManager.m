@@ -25,7 +25,7 @@
     }
     
     if (error)
-        YDLogError(@"创建目录失败:%@ error:%@", dirName, error);
+        NSLog(@"创建目录失败:%@ error:%@", dirName, error);
     
     return fileDir;
 }
