@@ -7,7 +7,23 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+```
+// 获取文件夹目录：Document/dirName
++ (NSString *)createDirectory:(NSString *)dirName;
+
+// 删除指定文件
++ (BOOL)deleteDirectory:(NSString *)dirName;
+
+// 获取指定路径下全部文件路径
++ (NSArray *)subpathsOfDirectoryAtPath:(NSString *)path;
+
+// 获取指定文件夹下全部文件路径
++ (NSArray *)getAllFilePaths:(NSString *)dirName;
+
+```
+
+
 
 ## Requirements
 
